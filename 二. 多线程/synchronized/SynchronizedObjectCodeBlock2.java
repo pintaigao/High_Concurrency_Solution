@@ -24,6 +24,7 @@ public class SynchronizedObjectCodeBlock2 implements Runnable {
         System.out.println("finished");
     }
 
+    /* 1.锁自己 */
     @Override
     public void run() {
         synchronized (this) {
@@ -37,7 +38,7 @@ public class SynchronizedObjectCodeBlock2 implements Runnable {
         }
     }
 
-    // 串并行都有
+    /* 2. 锁对象和串并行都有 */
     Object lock1 = new Object();
     Object lock2 = new Object();
 
@@ -63,9 +64,8 @@ public class SynchronizedObjectCodeBlock2 implements Runnable {
         }
     }
 
-    // 完全串行
+    /* 3. 锁对象和完全串行 */
     Object lock1 = new Object();
-    Object lock2 = new Object();
 
     public void run() {
         synchronized (lock1) {
