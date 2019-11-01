@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SynchronizedClassStatic4",
+            "request": "launch",
+            "mainClass": "com.rc.SynchronizedClassStatic4"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DisappearRequest1",
+            "request": "launch",
+            "mainClass": "com.rc.DisappearRequest1"
+        }
+    ]
+}

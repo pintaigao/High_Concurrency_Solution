@@ -21,7 +21,7 @@ public class DisappearRequest1 implements Runnable {
         t1.start();
         t2.start();
 
-        //下面两行代码是为了保证线程t1,t2执行完毕
+        // 下面两行代码是为了保证线程t1,t2执行完毕
         t1.join();
         t2.join();
 

@@ -17,7 +17,7 @@ public class SynchronizedObjectCodeBlock2 implements Runnable {
         t1.start();
         t2.start();
 
-        //下面代码是为了保证线程t1,t2执行完毕
+        // 下面代码是为了保证线程t1,t2执行完毕
         while (t1.isAlive() || t2.isAlive()) {
 
         }
@@ -37,9 +37,10 @@ public class SynchronizedObjectCodeBlock2 implements Runnable {
         }
     }
 
-    //串并行都有
-    /*Object lock1 = new Object();
+    // 串并行都有
+    Object lock1 = new Object();
     Object lock2 = new Object();
+
     public void run() {
         synchronized (lock1) {
             System.out.println("lock1部分: 我叫" + Thread.currentThread().getName());
@@ -60,11 +61,12 @@ public class SynchronizedObjectCodeBlock2 implements Runnable {
             }
             System.out.println("lock2部分: " + Thread.currentThread().getName() + "运行结束");
         }
-    }*/
+    }
 
-    //完全串行
-    /*Object lock1 = new Object();
+    // 完全串行
+    Object lock1 = new Object();
     Object lock2 = new Object();
+
     public void run() {
         synchronized (lock1) {
             System.out.println("lock1部分: 我叫" + Thread.currentThread().getName());
@@ -85,5 +87,5 @@ public class SynchronizedObjectCodeBlock2 implements Runnable {
             }
             System.out.println("lock2部分: " + Thread.currentThread().getName() + "运行结束");
         }
-    }*/
+    }
 }
