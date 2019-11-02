@@ -9,6 +9,7 @@ package com.rc;
  */
 public class SynchronizedClassStatic4 implements Runnable {
 
+    /* 类锁 */
     static SynchronizedClassStatic4 instance1 = new SynchronizedClassStatic4();
     static SynchronizedClassStatic4 instance2 = new SynchronizedClassStatic4();
 
@@ -29,7 +30,7 @@ public class SynchronizedClassStatic4 implements Runnable {
         method();
     }
 
-    private static synchronized void method() {
+    private synchronized void method() {
         System.out.println("我叫" + Thread.currentThread().getName());
         try {
             Thread.sleep(3000);

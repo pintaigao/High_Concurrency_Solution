@@ -12,19 +12,17 @@ public class SynchronizedClassClass5 implements Runnable {
     static SynchronizedClassClass5 instance1 = new SynchronizedClassClass5();
     static SynchronizedClassClass5 instance2 = new SynchronizedClassClass5();
 
-
     public static void main(String[] args) {
         Thread t1 = new Thread(instance1);
         Thread t2 = new Thread(instance2);
         t1.start();
         t2.start();
 
-        //下面代码是为了保证线程t1,t2执行完毕
+        // 下面代码是为了保证线程t1,t2执行完毕
         while (t1.isAlive() || t2.isAlive()) {
         }
         System.out.println("finished");
     }
-
 
     @Override
     public void run() {
@@ -32,6 +30,7 @@ public class SynchronizedClassClass5 implements Runnable {
     }
 
     private void method() {
+        /* 运用的都是同一个实例class */
         synchronized (SynchronizedClassClass5.class) {
             System.out.println("我叫" + Thread.currentThread().getName());
             try {

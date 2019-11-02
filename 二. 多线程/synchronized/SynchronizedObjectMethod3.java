@@ -17,7 +17,7 @@ public class SynchronizedObjectMethod3 implements Runnable {
         t1.start();
         t2.start();
 
-        //下面代码是为了保证线程t1,t2执行完毕
+        // 下面代码是为了保证线程t1,t2执行完毕
         while (t1.isAlive() || t2.isAlive()) {
 
         }
@@ -34,5 +34,4 @@ public class SynchronizedObjectMethod3 implements Runnable {
         }
         System.out.println("lock1部分: " + Thread.currentThread().getName() + "运行结束");
     }
-
 }

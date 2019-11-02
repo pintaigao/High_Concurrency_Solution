@@ -2,6 +2,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "com.rc.Test"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SynchronizedObjectMethod3",
+            "request": "launch",
+            "mainClass": "com.rc.SynchronizedObjectMethod3"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SynchronizedClassStatic4",
             "request": "launch",
             "mainClass": "com.rc.SynchronizedClassStatic4"
