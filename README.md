@@ -103,7 +103,57 @@
 
 **Nginx 反向代理负载均衡**
 
-首先，你要有钱，要能买相同的多台服务器（假设买了四台）
+**首先，你要有钱，要能买相同的多台服务器（假设买了四台，三台部署jar包一台部署nginx反向代理）**。
+
+具体分布的方式：
+
+1.  **搭建分布服务器**
+
+*   在阿里云买四台机器，二台用于分布server，一台用于分布Mysql，一台用于装载nginx
+
+*   开放Mysql的远程端口，修改所有server datasource url to that ip adress:
+
+    ```json
+    spring.datasource.url=jdbc:mysql://(一个ip adress):3306/miaosha?...配置
+    ```
+
+*   数据库安全性：不是只要是个用户名和密码就可以连接上来，这样安全性太差了，要指定ip才能访问数据库（ip白名单）
+
+    ```sql
+    grant all priviledges on *.*(任何一个域名的用户) to root@'%'（访问root账号并且给予所有权限） identified by "root"
+    
+    flush privileges; (手动flush)
+    ```
+
+*   启动server1和server2的Tomcat
+
+    
+
+2.  **Nginx负载均衡配置**
+
+  先看一张图：
+  
+  ![image-20191109143618951](/Users/hptg/Documents/Project/Java/High_Concurrency_Solution/Resource/image-20191109143618951.png)
+  
+  nginx 什么时候反向代理的操作是代理到server，而什么时候又是代理到本地磁盘？
+  
+  *   URL规则： 若user访问的是miaoshaserver/resources ===> 访问本地磁盘，若不是，则反向代理到server
+  
+**部署Nginx OpenResty(OpenResty是单独下载的)，部署静态资源（resource）**
+  
+  *   **OpenResty** is a dynamic web platform based on NGINXand LuaJIT
+  *   OpenResty 的文件结构：
+      *   在nginx的文件夹中，有config，html，sbin(nginx的命令)
+  
+  
+
+**没钱，**可以一台机器创建多个虚拟机，具体方法是使用Vagrant 或者 Docker Machine（待研究）
+
+https://kiwenlau.com/2016/07/03/vagrant-vm-cluster/
+
+多个docker：https://juejin.im/post/5cdf983451882526015c3e06
+
+
 
 
 
