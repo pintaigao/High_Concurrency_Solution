@@ -143,7 +143,7 @@
   
   *   **OpenResty** is a dynamic web platform based on NGINXand LuaJIT
   *   OpenResty 的文件结构：
-      *   在nginx的文件夹中，有config，html，sbin(nginx的命令)
+      *   在nginx的文件夹中，有config，html（可以把前端的东西放到这里来），sbin(nginx的命令)
   
   
 
@@ -152,8 +152,6 @@
 https://kiwenlau.com/2016/07/03/vagrant-vm-cluster/
 
 多个docker：https://juejin.im/post/5cdf983451882526015c3e06
-
-
 
 
 
