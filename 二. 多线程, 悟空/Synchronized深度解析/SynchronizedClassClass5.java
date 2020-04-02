@@ -1,11 +1,7 @@
 package com.rc;
 
 /**
- * @ClassName SynchronizedClassClass5
- * @Description 类锁的第一种形式，class 形式
- * @Author liux
- * @Date 19-3-28 下午2:04
- * @Version 1.0
+ * 这个故事告诉我们，当还是有两个instance的时候，能通过synchronized (SynchronizedClassClass5.class)  来锁住class
  */
 public class SynchronizedClassClass5 implements Runnable {
 

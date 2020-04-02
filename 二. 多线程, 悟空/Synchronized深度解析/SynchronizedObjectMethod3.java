@@ -1,11 +1,5 @@
-package com.rc;
-
 /**
- * @ClassName SynchronizedObjectCodeBlock2
- * @Description 对象锁示例1, 方法锁形式
- * @Author liux
- * @Date 19-3-28 上午11:51
- * @Version 1.0
+ * 这个故事告诉我们，两个instance（同一个class），方法锁形式，锁方法
  */
 public class SynchronizedObjectMethod3 implements Runnable {
 

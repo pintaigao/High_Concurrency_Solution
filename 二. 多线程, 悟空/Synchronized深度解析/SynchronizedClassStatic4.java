@@ -1,11 +1,7 @@
 package com.rc;
 
 /**
- * @ClassName SynchronizedClassStatic4
- * @Description 类锁的第一种形式，static 形式
- * @Author liux
- * @Date 19-3-28 下午1:53
- * @Version 1.0
+ * 这个故事告诉我们，当有两个instance的时候，而且是自己写的方法，能通过static synchronized void method()静态方法来锁住方法
  */
 public class SynchronizedClassStatic4 implements Runnable {
 
@@ -30,7 +26,7 @@ public class SynchronizedClassStatic4 implements Runnable {
         method();
     }
 
-    private synchronized void method() {
+    private static synchronized void method() {
         System.out.println("我叫" + Thread.currentThread().getName());
         try {
             Thread.sleep(3000);

@@ -1,15 +1,14 @@
-package com.rc;
-
-import java.util.concurrent.atomic.AtomicInteger;
-
 /**
- * @ClassName DisappearRequest1
- * @Description 消失的请求
- * @Author liux
- * @Date 19-3-28 上午11:23
- * @Version 1.0
+ * 1. 这个故事告诉我们，如果不加锁，i不会到200000的
  */
 public class DisappearRequest1 implements Runnable {
+
+    @Override
+    public void run() {
+        for (int j = 0; j < 100000; j++) {
+            i++;
+        }
+    }
 
     static DisappearRequest1 instance = new DisappearRequest1();
 
@@ -21,17 +20,10 @@ public class DisappearRequest1 implements Runnable {
         t1.start();
         t2.start();
 
-        // 下面两行代码是为了保证线程t1,t2执行完毕
+        // 下面两行代码是为了保证线程t1,t2执行完毕，然后执行System out print
         t1.join();
         t2.join();
 
         System.out.println(i);
-    }
-
-    @Override
-    public void run() {
-        for (int j = 0; j < 100000; j++) {
-            i++;
-        }
     }
 }

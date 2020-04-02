@@ -2,6 +2,25 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SynchronizedObjectCodeBlock2",
+            "request": "launch",
+            "mainClass": "SynchronizedObjectCodeBlock2",
+            "projectName": "Synchronized深度解析_3e61c4df"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DisappearRequest",
+            "request": "launch",
+            "mainClass": "DisappearRequest"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DisappearRequest1",
+            "request": "launch",
+            "mainClass": "DisappearRequest1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Test",
             "request": "launch",
             "mainClass": "com.rc.Test"
