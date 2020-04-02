@@ -2,7 +2,145 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5824c3ec-a5ee-4ab1-af5c-804401309265" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/一. 高性能秒杀方案.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第三章.云端部署/miaoshaStable/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../二. 多线程, 悟空/Synchronized深度解析/sychronized-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第三章.云端部署/miaoshaStable/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_41.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../第三章.云端部署/miaoshaStable/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第三章.云端部署/miaoshaStable/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../第三章.云端部署/miaoshaStable/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第三章.云端部署/miaoshaStable/miaosha.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../第三章.云端部署/miaoshaStable/miaosha.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第三章.云端部署/miaoshaStable/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../第三章.云端部署/miaoshaStable/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第三章.云端部署/miaoshaStable/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../第三章.云端部署/miaoshaStable/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/background/Create100Threads.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/background/JavaAndThreads.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/background/MultiThreadError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/background/MultiThreadsError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/background/MultiThreadsError3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/background/MultiThreadsError4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/background/MultiThreadsError5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/background/MultiThreadsError6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/background/MultiThreadsError7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/deadlock/DiningPhilosophers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/deadlock/LiveLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/deadlock/MultiTransferMoney.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/deadlock/MustDeadLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/deadlock/ThreadMXBeanDetection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/deadlock/TransferMoney.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/deadlock/TryLockDeadlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/jmm/FieldVisibility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/jmm/FieldVisibilityABCD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/jmm/NoVolatile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/jmm/NoVolatile2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/jmm/OutOfOrderExecution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/jmm/UseVolatile1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/singleton/Singleton1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/singleton/Singleton2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/singleton/Singleton3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/singleton/Singleton4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/singleton/Singleton5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/singleton/Singleton6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/singleton/Singleton7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/singleton/Singleton8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/createthreads/BothRunnableThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/createthreads/RunnableStyle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/createthreads/ThreadStyle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/createthreads/wrongways/AnonymousInnerClassDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/createthreads/wrongways/DemoTimmerTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/createthreads/wrongways/Lambda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/createthreads/wrongways/ThreadPool5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/sixstates/BlockedWaitingTimedWaiting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/sixstates/NewRunnableTerminated.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/startthread/CantStartTwice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/startthread/StartAndRunMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/stopthreads/CantInterrupt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/stopthreads/RightWayInterrupted.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/stopthreads/RightWayStopThreadInProd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/stopthreads/RightWayStopThreadInProd2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/stopthreads/RightWayStopThreadWithSleep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/stopthreads/RightWayStopThreadWithSleepEveryLoop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/stopthreads/RightWayStopThreadWithoutSleep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/stopthreads/RunThrowException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/stopthreads/StopThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/stopthreads/volatiledemo/WrongWayVolatile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/stopthreads/volatiledemo/WrongWayVolatileCantStop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/stopthreads/volatiledemo/WrongWayVolatileFixed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/threadobjectclasscommonmethods/CurrentThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/threadobjectclasscommonmethods/Id.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/threadobjectclasscommonmethods/Join.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/threadobjectclasscommonmethods/JoinInterrupt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/threadobjectclasscommonmethods/JoinPrinciple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/threadobjectclasscommonmethods/JoinThreadState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/threadobjectclasscommonmethods/ProducerConsumerModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/threadobjectclasscommonmethods/SleepDontReleaseLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/threadobjectclasscommonmethods/SleepDontReleaseMonitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/threadobjectclasscommonmethods/SleepInterrupted.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/threadobjectclasscommonmethods/ThreadSetName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/threadobjectclasscommonmethods/Wait.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/threadobjectclasscommonmethods/WaitNotifyAll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/threadobjectclasscommonmethods/WaitNotifyPrintOddEveWait.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/threadobjectclasscommonmethods/WaitNotifyPrintOddEvenSyn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/threadobjectclasscommonmethods/WaitNotifyReleaseOwnMonitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/uncaughtexception/CantCatchDirectly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/uncaughtexception/ExceptionInChildThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/uncaughtexception/MyUncaughtExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/threadcoreknowledge/uncaughtexception/UseOwnUncaughtExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/思维导图图片/Java内存模型.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/思维导图图片/二级标题汇总 复习用 成体系的Java并发多线程核心+内存模型+死锁——从用法到原理，面试必考.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/思维导图图片/并发工具类的分类 慕课网悟空整理.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/思维导图图片/死锁——从产生到消除.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/思维导图图片/线程8大核心基础.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/思维导图汇总.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/技术图片/CPU缓存结构.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/技术图片/Java异常体系.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/技术图片/wait原理.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/技术图片/两线程死锁情况.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/技术图片/主内存和工作内存1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/技术图片/主内存和工作内存2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/技术图片/双重检查模式.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/技术图片/哲学家就餐1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/技术图片/哲学家就餐2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/技术图片/多线程循环死锁情况.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/技术图片/死锁漫画.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/技术图片/生产者模式1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/技术图片/生产者模式2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/技术图片/线程各属性总结.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/技术图片/线程各属性概览.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/技术图片/线程安全问题.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/技术图片/线程的6个状态.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/技术图片/线程重要方法.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/技术图片/重排序前指令.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/技术图片/重排序后指令.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/Thread/课程资料/高频面试题汇总（持续更新）.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/Decompilation14.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/DisappearRequest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/LockExample15.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/SynchronizedClassClass5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/SynchronizedClassStatic4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/SynchronizedException9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/SynchronizedObjectCodeBlock2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/SynchronizedObjectMethod3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/SynchronizedOtherMethod11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/SynchronizedRecursion10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/SynchronizedStaticAndNormal8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/SynchronizedSuperClass12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/SynchronizedToLock13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/SynchronizedYesAndNo6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/SynchronizedYesAndYes7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/java内存模型.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/synchronized/sychronized-demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../二. 多线程/多线程.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -647,11 +785,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/imooc/miaoshaproject/controller/UserController.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/imooc/miaoshaproject/controller/BaseController.java</url>
           <line>26</line>
